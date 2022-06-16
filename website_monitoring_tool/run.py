@@ -94,6 +94,7 @@ class SiteMonitor(threading.Thread):
         print(f"[+] GET: {self.url}")
         if r.status_code == 200:
             return r.text
+        self.send_email(f"[-] GET: {self.url} failed with status code: {r.status_code}")
         return ""
     
     def send_sms(self, message):
