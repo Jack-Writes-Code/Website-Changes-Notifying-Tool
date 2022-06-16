@@ -1,4 +1,4 @@
-# Website-Monitoring-Tool
+# Website-Changes-Notifying-Tool
  
 This script will monitor a list of websites and if the body of any of the websites change it will notify you via text (using ClickSend SMS API) and via email (requires SMTP details).
 
