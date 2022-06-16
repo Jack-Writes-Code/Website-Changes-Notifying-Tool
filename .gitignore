@@ -153,3 +153,5 @@ cython_debug/
 
 website_monitoring_tool/config.txt
 website_monitoring_tool/urls.txt
+config.txt
+urls.txt
