@@ -1,0 +1,10 @@
+check_interval(minutes) = 1
+clicksend_sms_username  = email@domain.com
+clicksend_sms_api_key   = your-api-key
+mobile_number           = 07000000000
+sender_name             = SiteMonitor
+recipient_email_address = email@domain.com
+smtp_username           = email@domain.com
+smtp_password           = password
+smtp_server             = smtp.server.com
+smtp_port               = 465
